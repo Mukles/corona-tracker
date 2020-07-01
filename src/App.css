@@ -1,0 +1,19 @@
+.form-control:focus{
+  box-shadow: none;
+}
+/* .mobile-sidebar {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 32%;
+    z-index: 59;
+    left: 0%;
+    height: 50% !important;
+    background: rgba(0,0,0,0.2);
+}
+
+@media (min-width: 768px) {
+  .mobile-sidebar{
+    top: 21%;
+  }
+} */
