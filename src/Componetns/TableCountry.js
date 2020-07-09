@@ -44,7 +44,7 @@ const TableCountry = () =>{
                                               <td className='text-right'> {item.TotalConfirmed} </td>
                                               <td className='text-right bg-warning'>+{item.NewConfirmed}</td>
                                               <td className='text-right'>{item.TotalDeaths} </td>
-                                              <td className='text-right bg-danger'>{item.NewDeaths > 0 ? '+' + item.NewDeaths: null} </td>
+                                              <td className='text-right bg-danger'>{item.NewDeaths > 0 ? '+' + item.NewDeaths: 0} </td>
                                               <td className='text-right'> {item.TotalRecovered} </td>
                                               <td className='text-right'> {item.NewRecovered} </td>
                                               <td className='text-right'> {(item.TotalConfirmed - (item.TotalDeaths + item.TotalRecovered))}</td>
