@@ -10,6 +10,7 @@ const TableCountry = () =>{
     coutryMyApi()
 
   },[]);
+  console.log(tempcountryData);
 
   return(
     <div className='container'>
