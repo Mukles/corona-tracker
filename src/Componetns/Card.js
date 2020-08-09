@@ -2,7 +2,7 @@ import React from 'react';
 import Loader from 'react-loader-spinner';
 import CountUp from 'react-countup';
 
-const Card = ({data: {confirmed, recovered, deaths, lastUpdate},onchage}) =>{
+const Card = ({data: {confirmed, recovered, deaths, lastUpdate}}) =>{
   if(!confirmed){
     return(
       <div className='contianer text-center'>
